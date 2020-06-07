@@ -5,7 +5,26 @@ Explanation: there are four ways to make up the amount:
 5=2+2+1
 5=2+1+1+1
 5=1+1+1+1+1
-
+  
+    //////////Approach - DP Table//////////////
+    
+            0       1       2       3       4       5
+    
+    
+    1       1       1       1       1       1       1
+    
+    
+    2       1       1       2       2       3       3
+    
+    
+    5       1       1       2       2       3       4
+    
+    
+    
+    
+    
+    ////////////////////////////////////
+    
 sol:
 class Solution {
     public int change(int amount, int[] coins) {
